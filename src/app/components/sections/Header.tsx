@@ -2,7 +2,7 @@ import { Menu } from "lucide-react";
 import { PrimaryButton } from "@/app/components/buttons/PrimaryButton";
 import { motion } from "framer-motion";
 
-const melangeLogoImage = "/assets_webp/melange-logo.webp";
+import melangeLogoImage from "@/assets/logo.png";
 
 interface HeaderProps {
   isScrollingUp: boolean;

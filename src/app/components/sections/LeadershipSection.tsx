@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { PrimaryButton } from '@/app/components/buttons/PrimaryButton';
 import { useState } from 'react';
-const julienCordonPhoto = '/assets_webp/julien-portrait.webp';
+import julienCordonPhoto from "@/assets/julien.png";
 
 export function LeadershipSection() {
   const [isActive, setIsActive] = useState(false);
