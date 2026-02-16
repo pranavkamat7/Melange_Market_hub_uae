@@ -420,7 +420,7 @@ export function DubaiCitySection() {
 
               {/* CTA Button */}
               <div className="flex justify-center lg:justify-start">
-                <a href="#contact">
+                <a href="https://melangedigital.co/services">
                   <PrimaryButton>Explore</PrimaryButton>
                 </a>
               </div>

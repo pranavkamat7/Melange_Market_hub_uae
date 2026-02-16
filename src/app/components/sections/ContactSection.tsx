@@ -99,15 +99,7 @@ export function ContactSection() {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                GCC Office
-              </h3>
-              <p className="text-white/60 text-lg leading-relaxed">
-                Sharjah, UAE
-                <br />
-              </p>
-            </div>
+            
 
             <p className="text-white/40 text-sm max-w-md">
               We work with brands ready to dominate their category — not just

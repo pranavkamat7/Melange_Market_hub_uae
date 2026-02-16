@@ -1,6 +1,6 @@
-import { motion } from 'motion/react';
-import { PrimaryButton } from '@/app/components/buttons/PrimaryButton';
-import { useState } from 'react';
+import { motion } from "motion/react";
+import { PrimaryButton } from "@/app/components/buttons/PrimaryButton";
+import { useState } from "react";
 import julienCordonPhoto from "@/assets/julien.png";
 
 export function LeadershipSection() {
@@ -16,7 +16,6 @@ export function LeadershipSection() {
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Two-column layout: Portrait (left) + Text (right) */}
         <div className="grid lg:grid-cols-[28%_1fr] gap-12 lg:gap-16 items-center lg:items-start">
-          
           {/* LEFT: Portrait with animated neon frame */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -26,7 +25,7 @@ export function LeadershipSection() {
             className="relative max-w-[220px] lg:max-w-[280px] mx-auto lg:ml-auto lg:mr-0"
           >
             {/* Soft glow behind portrait */}
-            <motion.div 
+            <motion.div
               className="absolute inset-0 bg-gradient-to-br from-[#B44CFF]/15 via-[#5A7CFF]/10 to-transparent blur-3xl"
               animate={{
                 opacity: [0.1, 0.2, 0.1],
@@ -34,17 +33,21 @@ export function LeadershipSection() {
               transition={{
                 duration: 4,
                 repeat: Infinity,
-                ease: "easeInOut"
+                ease: "easeInOut",
               }}
             />
-            
+
             {/* Animated gradient border frame */}
-            <div className="relative rounded-[24px] overflow-hidden group" id='About'>
+            <div
+              className="relative rounded-[24px] overflow-hidden group"
+              id="About"
+            >
               {/* Animated gradient border */}
-              <motion.div 
+              <motion.div
                 className="absolute inset-0 rounded-3xl opacity-70"
                 style={{
-                  background: 'linear-gradient(0deg, #B44CFF, #5A7CFF, #E879F9, #B44CFF)',
+                  background:
+                    "linear-gradient(0deg, #B44CFF, #5A7CFF, #E879F9, #B44CFF)",
                 }}
                 animate={{
                   opacity: [0.5, 0.8, 0.5],
@@ -52,13 +55,13 @@ export function LeadershipSection() {
                 transition={{
                   duration: 6,
                   repeat: Infinity,
-                  ease: 'linear',
+                  ease: "linear",
                 }}
               />
 
               {/* Inner container to create border effect */}
               <div className="absolute inset-[4px] bg-[#0B0B12] rounded-[20px]" />
-              
+
               {/* Portrait container with breathing space */}
               <div className="relative p-6 bg-transparent rounded-[24px] z-10">
                 <div className="relative overflow-hidden rounded-[18px]">
@@ -77,14 +80,18 @@ export function LeadershipSection() {
               {/* Clipped corner accents - subtle authority interface signature */}
               {/* Top-right corner */}
               <div className="absolute top-0 right-0 w-6 h-6 overflow-hidden">
-                <div className="absolute top-0 right-0 w-4 h-4 border-t-[1.5px] border-r-[1.5px] border-[#5A7CFF]/40" 
-                     style={{ clipPath: 'polygon(100% 0, 100% 100%, 0 0)' }} />
+                <div
+                  className="absolute top-0 right-0 w-4 h-4 border-t-[1.5px] border-r-[1.5px] border-[#5A7CFF]/40"
+                  style={{ clipPath: "polygon(100% 0, 100% 100%, 0 0)" }}
+                />
               </div>
-              
+
               {/* Bottom-left corner */}
               <div className="absolute bottom-0 left-0 w-6 h-6 overflow-hidden">
-                <div className="absolute bottom-0 left-0 w-4 h-4 border-b-[1.5px] border-l-[1.5px] border-[#B44CFF]/40" 
-                     style={{ clipPath: 'polygon(0 100%, 100% 100%, 0 0)' }} />
+                <div
+                  className="absolute bottom-0 left-0 w-4 h-4 border-b-[1.5px] border-l-[1.5px] border-[#B44CFF]/40"
+                  style={{ clipPath: "polygon(0 100%, 100% 100%, 0 0)" }}
+                />
               </div>
             </div>
           </motion.div>
@@ -105,28 +112,30 @@ export function LeadershipSection() {
                 On the Ground
               </span>
             </h2>
-            
+
             {/* Name */}
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
               Julien Cordon
             </h3>
-            
+
             {/* Role */}
             <p className="text-lg md:text-xl text-[#94A3B8]">
               Regional Director, GCC
             </p>
-            
+
             {/* Updated description sentence */}
             <p className="text-xl md:text-2xl text-white/70 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Leading execution in the Gulf, backed by infrastructure designed to scale globally.
+              Leading execution in the Gulf, backed by infrastructure designed
+              to scale globally.
             </p>
-            
+
             {/* CTA Button - gradient outline with soft glow hover */}
             <div className="flex justify-center lg:justify-start">
-              <a href="#contact" >
-                <PrimaryButton className="min-w-[180px]">Contact Me</PrimaryButton>
+              <a href="tel:+971528008051">
+                <PrimaryButton className="min-w-[180px]">
+                  Call Now
+                </PrimaryButton>
               </a>
-              
             </div>
           </motion.div>
         </div>

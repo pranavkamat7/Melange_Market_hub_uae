@@ -110,7 +110,7 @@ export function SystemThinkingSection() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="flex justify-center mb-6 lg:mb-8"
         >
-          <a href="#contact" >
+          <a href="https://calendly.com/julien-melangedigital/30min" >
             <PrimaryButton variant="dark" className="min-w-[160px]">Get an Audit</PrimaryButton>
           </a>
           

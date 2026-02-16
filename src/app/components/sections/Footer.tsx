@@ -30,7 +30,7 @@ export function Footer() {
         <div className="mb-16 lg:mb-32">
           <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between">
             {/* Large headline */}
-            <a href="#contact" >
+            <a href="https://calendly.com/julien-melangedigital/30min" >
               <h2 className="text-[64px] lg:text-[192px] xl:text-[224px] font-normal text-white leading-none mb-6 lg:mb-0">
               Let's Talk
             </h2>

@@ -45,7 +45,7 @@ export function HeroSection() {
           <MicroLabel className="mb-8">INITIATE SEQUENCE</MicroLabel>
           
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <a href="#contact" >
+            <a href="https://calendly.com/julien-melangedigital/30min" >
               <PrimaryButton className="w-auto min-w-[180px]">
               Book a Call
             </PrimaryButton>

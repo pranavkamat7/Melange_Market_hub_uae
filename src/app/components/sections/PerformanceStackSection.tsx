@@ -109,7 +109,7 @@ export function PerformanceStackSection() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="flex justify-center mb-16 md:mb-10"
         >
-          <a href="#contact" >
+          <a href="https://calendly.com/julien-melangedigital/30min" >
             <PrimaryButton variant="dark" className="min-w-[160px]">Let's Talk</PrimaryButton>
           </a>
           
