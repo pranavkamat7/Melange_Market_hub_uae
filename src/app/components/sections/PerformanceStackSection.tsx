@@ -109,7 +109,10 @@ export function PerformanceStackSection() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="flex justify-center mb-16 md:mb-10"
         >
-          <PrimaryButton variant="dark" className="min-w-[160px]">Let's Talk</PrimaryButton>
+          <a href="#contact" >
+            <PrimaryButton variant="dark" className="min-w-[160px]">Let's Talk</PrimaryButton>
+          </a>
+          
         </motion.div>
 
         {/* Glassmorphism Container for Flow Diagram */}

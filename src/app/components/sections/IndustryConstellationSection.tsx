@@ -38,7 +38,7 @@ export function IndustryConstellationSection() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section id="industries" className="relative bg-[#0B0B12] py-32 lg:py-48 overflow-hidden">
+    <section id="Work" className="relative bg-[#0B0B12] py-32 lg:py-48 overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="text-center mb-16">

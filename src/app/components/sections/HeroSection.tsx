@@ -8,8 +8,6 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <StarfieldBackground />
-      <LensDistortionWrapper />
-      
       <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12 text-center z-10">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
@@ -47,9 +45,12 @@ export function HeroSection() {
           <MicroLabel className="mb-8">INITIATE SEQUENCE</MicroLabel>
           
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <PrimaryButton className="w-auto min-w-[180px]">
+            <a href="#contact" >
+              <PrimaryButton className="w-auto min-w-[180px]">
               Book a Call
             </PrimaryButton>
+            </a>
+            
           </div>
         </motion.div>
       </div>

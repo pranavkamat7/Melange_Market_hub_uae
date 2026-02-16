@@ -229,7 +229,10 @@ export function DubaiFAQSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex justify-center mt-12"
           >
-            <PrimaryButton variant="dark" className="min-w-[180px]">Explore</PrimaryButton>
+            <a href="#contact" >
+                <PrimaryButton variant="dark" className="min-w-[180px]">Explore</PrimaryButton>
+            </a>
+            
           </motion.div>
         </div>
       </div>

@@ -46,10 +46,9 @@ export function MobileMenuOverlay({ isOpen, onClose }: MobileMenuOverlayProps) {
           
           {[
             { label: 'SERVICES', href: '#services' },
-            { label: 'WORK', href: '#work' },
-            { label: 'ABOUT', href: '#about' },
-            { label: 'INSIGHTS', href: '#insights' },
-            { label: 'CAREERS', href: '#careers' }
+            { label: 'WORK', href: '#Work' },
+            { label: 'ABOUT', href: '#About' },
+            { label: 'CAREERS', href: 'https://melangedigital.co/careers' }
           ].map((link, index) => (
             <div key={link.label}>
               <motion.a

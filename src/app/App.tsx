@@ -23,6 +23,7 @@ import { TrackRecordSection } from '@/app/components/sections/TrackRecordSection
 import { ClientSignalsSection } from '@/app/components/sections/ClientSignalsSection';
 import { FinalCTASection } from '@/app/components/sections/FinalCTASection';
 import { AccoladesSection } from '@/app/components/sections/AccoladesSection';
+import { ContactSection } from '@/app/components/sections/ContactSection';
 import { Footer } from '@/app/components/sections/Footer';
 
 export default function App() {
@@ -134,6 +135,7 @@ export default function App() {
       <ClientSignalsSection />
       <FinalCTASection />
       <AccoladesSection />
+      <ContactSection />
       <Footer />
     </div>
   );

@@ -110,7 +110,10 @@ export function SystemThinkingSection() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="flex justify-center mb-6 lg:mb-8"
         >
-          <PrimaryButton variant="dark" className="min-w-[160px]">Get an Audit</PrimaryButton>
+          <a href="#contact" >
+            <PrimaryButton variant="dark" className="min-w-[160px]">Get an Audit</PrimaryButton>
+          </a>
+          
         </motion.div>
 
         {/* Cards Grid - Desktop: 3 top, 2 bottom centered */}

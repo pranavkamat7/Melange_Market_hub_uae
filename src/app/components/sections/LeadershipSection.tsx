@@ -39,7 +39,7 @@ export function LeadershipSection() {
             />
             
             {/* Animated gradient border frame */}
-            <div className="relative rounded-[24px] overflow-hidden group">
+            <div className="relative rounded-[24px] overflow-hidden group" id='About'>
               {/* Animated gradient border */}
               <motion.div 
                 className="absolute inset-0 rounded-3xl opacity-70"
@@ -123,7 +123,10 @@ export function LeadershipSection() {
             
             {/* CTA Button - gradient outline with soft glow hover */}
             <div className="flex justify-center lg:justify-start">
-              <PrimaryButton className="min-w-[180px]">Contact Me</PrimaryButton>
+              <a href="#contact" >
+                <PrimaryButton className="min-w-[180px]">Contact Me</PrimaryButton>
+              </a>
+              
             </div>
           </motion.div>
         </div>

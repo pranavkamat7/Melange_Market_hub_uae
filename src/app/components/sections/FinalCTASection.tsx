@@ -1,6 +1,6 @@
-import { motion } from 'motion/react';
-import { ArrowRight } from 'lucide-react';
-import { PrimaryButton } from '@/app/components/buttons/PrimaryButton';
+import { motion } from "motion/react";
+import { ArrowRight } from "lucide-react";
+import { PrimaryButton } from "@/app/components/buttons/PrimaryButton";
 
 export function FinalCTASection() {
   return (
@@ -8,12 +8,14 @@ export function FinalCTASection() {
       {/* Premium atmospheric background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Radial gradient overlay */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[800px]" 
+        <div
+          className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[800px]"
           style={{
-            background: 'radial-gradient(ellipse at top, rgba(213, 64, 255, 0.08) 0%, transparent 60%)'
+            background:
+              "radial-gradient(ellipse at top, rgba(213, 64, 255, 0.08) 0%, transparent 60%)",
           }}
         />
-        
+
         {/* Floating gradient orbs */}
         <motion.div
           className="absolute top-[15%] left-[5%] w-[600px] h-[600px] bg-[#D540FF]/8 rounded-full blur-[140px]"
@@ -25,7 +27,7 @@ export function FinalCTASection() {
           transition={{
             duration: 20,
             repeat: Infinity,
-            ease: "easeInOut"
+            ease: "easeInOut",
           }}
         />
         <motion.div
@@ -38,7 +40,7 @@ export function FinalCTASection() {
           transition={{
             duration: 18,
             repeat: Infinity,
-            ease: "easeInOut"
+            ease: "easeInOut",
           }}
         />
       </div>
@@ -57,9 +59,11 @@ export function FinalCTASection() {
             </span>
           </h2>
           <div className="flex justify-center">
-            <PrimaryButton className="w-auto min-w-[160px]">
-              Let's Build
-            </PrimaryButton>
+            <a href="#contact">
+              <PrimaryButton className="w-auto min-w-[160px]">
+                Let's Build
+              </PrimaryButton>
+            </a>
           </div>
         </motion.div>
       </div>
