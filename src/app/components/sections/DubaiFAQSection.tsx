@@ -229,7 +229,7 @@ export function DubaiFAQSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex justify-center mt-12"
           >
-            <a href="#contact" >
+            <a href="https://melangedigital.co/uae/dubai/" >
                 <PrimaryButton variant="dark" className="min-w-[180px]">Explore</PrimaryButton>
             </a>
             

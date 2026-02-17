@@ -6,7 +6,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative bg-[#0B0B12] py-32 lg:py-40 overflow-hidden"
+      className="relative bg-[#0B0B12] py-32 lg:py-10 overflow-hidden"
     >
       {/* Ambient Gradient Orbs */}
       <div className="absolute top-0 left-1/3 w-[700px] h-[700px] bg-[#D540FF]/20 blur-[150px] rounded-full" />
@@ -18,7 +18,7 @@ export function ContactSection() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-20"
+          className="text-center mb-10"
         >
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             <span className="text-white">Let’s Build</span>
