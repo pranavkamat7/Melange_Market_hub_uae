@@ -38,7 +38,7 @@ export function AutomationControlSection() {
   const [hoveredNode, setHoveredNode] = useState<number | null>(null);
 
   return (
-    <section className="bg-white text-[#0F172A] py-24 md:py-32 lg:py-40 relative overflow-hidden">
+    <section className="bg-white text-[#0F172A] py-24 md:py-32 lg:py-20 relative overflow-hidden">
       {/* Premium grid background */}
       <div className="absolute inset-0 pointer-events-none">
         <div 

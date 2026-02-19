@@ -25,7 +25,7 @@ const outcomes = [
 
 export function WhyItWorksSection() {
   return (
-    <section className="relative min-h-screen flex items-center py-24 md:py-32 lg:py-40 overflow-hidden bg-[#0B0B12]">
+    <section className="relative min-h-screen flex items-center py-24 md:py-32 lg:py-10 overflow-hidden bg-[#0B0B12]">
       {/* Dramatic gradient orbs */}
       <div className="absolute top-0 left-1/4 w-[800px] h-[800px] bg-[#D540FF]/20 blur-[150px] rounded-full" />
       <div className="absolute bottom-0 right-1/4 w-[800px] h-[800px] bg-[#3858FF]/20 blur-[150px] rounded-full" />
@@ -39,7 +39,7 @@ export function WhyItWorksSection() {
           viewport={{ once: true }}
           className="text-center mb-16 lg:mb-24"
         >
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
             <span className="text-white">Why It </span>
             <span className="bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent">Works</span>
           </h2>

@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 
 export function FinalStatementSection() {
   return (
-    <section className="bg-white text-[#0F172A] py-32 lg:py-48">
+    <section className="bg-white text-[#0F172A] py-32 lg:py-20">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
         <motion.div
           initial={{ opacity: 0 }}

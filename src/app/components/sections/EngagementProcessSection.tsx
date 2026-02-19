@@ -3,7 +3,7 @@ import { GradientDivider } from '@/app/components/ui/GradientDivider';
 
 export function EngagementProcessSection() {
   return (
-    <section className="bg-white text-[#0F172A] py-32 lg:py-48">
+    <section className="bg-white text-[#0F172A] py-32 lg:py-18">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0 }}

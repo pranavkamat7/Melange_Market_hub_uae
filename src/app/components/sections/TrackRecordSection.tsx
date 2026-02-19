@@ -65,7 +65,7 @@ export function TrackRecordSection() {
   };
 
   return (
-    <section ref={sectionRef} className="relative py-24 lg:py-32 overflow-hidden bg-[#0B0B12]" id='insights'>
+    <section ref={sectionRef} className="relative py-24 lg:py-12 overflow-hidden bg-[#0B0B12]" id='insights'>
       <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12 z-10">
         {/* Oversized Gradient Headline */}
         <h2 className="text-5xl md:text-6xl lg:text-8xl xl:text-9xl mb-16 lg:mb-12 tracking-tight leading-[1.1] text-white bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent]">

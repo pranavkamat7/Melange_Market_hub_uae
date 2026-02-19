@@ -25,7 +25,7 @@ export function VisualDominanceSection() {
   const [hoveredPanel, setHoveredPanel] = useState<number | null>(null);
 
   return (
-    <section className="relative bg-[#0B0B12] py-24 md:py-32 lg:py-40 overflow-hidden">
+    <section className="relative bg-[#0B0B12] py-24 md:py-32 lg:py-20 overflow-hidden">
       {/* Film grain texture overlay */}
       <div 
         className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay"

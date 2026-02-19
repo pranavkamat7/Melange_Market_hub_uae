@@ -4,7 +4,7 @@ export function InfrastructureRevealSection() {
   const pills = ['Performance Engine', 'Authority Layer', 'Conversion System'];
 
   return (
-    <section id="infrastructure-section" className="relative bg-[#0a0a12] py-24 md:py-32 lg:py-40 overflow-hidden">
+    <section id="infrastructure-section" className="relative bg-[#0a0a12] py-24 md:py-32 lg:py-20 overflow-hidden">
       {/* Gradient background layers */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0B0B12] via-[#0a0a12] to-[#0F172A]" />
       

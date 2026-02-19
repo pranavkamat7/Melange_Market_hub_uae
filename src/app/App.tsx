@@ -29,7 +29,7 @@ import { Footer } from '@/app/components/sections/Footer';
 export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isInactive, setIsInactive] = useState(false);
-  const [isScrollingUp, setIsScrollingUp] = useState(false);
+  const [isScrollingUp, setIsScrollingUp] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [hasInteracted, setHasInteracted] = useState(false);
 

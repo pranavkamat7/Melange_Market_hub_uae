@@ -4,7 +4,7 @@ import { PrimaryButton } from "@/app/components/buttons/PrimaryButton";
 
 export function FinalCTASection() {
   return (
-    <section className="relative bg-[#0B0B12] py-32 lg:py-48 overflow-hidden">
+    <section className="relative bg-[#0B0B12] py-32 lg:py-10 overflow-hidden">
       {/* Premium atmospheric background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Radial gradient overlay */}

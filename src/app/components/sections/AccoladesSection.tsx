@@ -62,7 +62,7 @@ export function AccoladesSection() {
   };
 
   return (
-    <section className="relative py-16 lg:py-20 overflow-hidden bg-black">
+    <section className="relative py-16 lg:py-10 overflow-hidden bg-black">
       {/* Flowing Wavy Gradient Background */}
       <div className="absolute inset-0 accolades-wave-background"></div>
       
@@ -85,7 +85,7 @@ export function AccoladesSection() {
               <div className="border-b border-white/20 pb-4">
                 {/* Logo Placeholder */}
                 <div className="mb-4 h-12 flex items-center">
-                  <div className="text-white/40 text-xs font-mono tracking-wider">
+                  <div className="text-white/40 text-xl font-mono tracking-wider">
                     {award.logo}
                   </div>
                 </div>

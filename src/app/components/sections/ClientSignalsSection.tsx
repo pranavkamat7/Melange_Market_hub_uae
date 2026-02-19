@@ -157,7 +157,7 @@ export function ClientSignalsSection() {
   };
 
   return (
-    <section className="relative py-24 lg:py-32 overflow-hidden bg-white">
+    <section className="relative py-24 lg:py-12 overflow-hidden bg-white">
       <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12 z-10">
         {/* Heading */}
         <div className="mb-16 lg:mb-20">

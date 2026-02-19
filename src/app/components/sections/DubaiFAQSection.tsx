@@ -108,7 +108,7 @@ export function DubaiFAQSection() {
   const moreFaqs = faqs.slice(5);
 
   return (
-    <section className="relative bg-white py-24 md:py-32 lg:py-40 overflow-hidden">
+    <section className="relative bg-white py-24 md:py-32 lg:py-20 overflow-hidden">
       {/* Subtle gradient orbs in background */}
       <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-gradient-to-br from-[#D540FF]/[0.03] to-transparent blur-3xl rounded-full" />
       <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-gradient-to-br from-[#3858FF]/[0.03] to-transparent blur-3xl rounded-full" />

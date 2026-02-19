@@ -12,7 +12,7 @@ export function LeadershipSection() {
   };
 
   return (
-    <section id="about" className="bg-[#0B0B12] py-32 lg:py-48">
+    <section id="about" className="bg-[#0B0B12] py-32 lg:py-20">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Two-column layout: Portrait (left) + Text (right) */}
         <div className="grid lg:grid-cols-[28%_1fr] gap-12 lg:gap-16 items-center lg:items-start">

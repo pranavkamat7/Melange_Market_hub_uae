@@ -73,7 +73,7 @@ export function SystemThinkingSection() {
   }, []);
 
   return (
-    <section className="bg-white py-16 md:py-20 lg:py-24">
+    <section className="bg-white py-16 md:py-20 lg:py-10">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         {/* Headline */}
         <motion.div

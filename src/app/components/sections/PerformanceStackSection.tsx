@@ -14,7 +14,7 @@ export function PerformanceStackSection() {
   ];
 
   return (
-    <section className="relative bg-white pt-12 md:pt-16 lg:pt-20 pb-24 md:pb-32 lg:pb-40 overflow-hidden">
+    <section className="relative bg-white pt-12 md:pt-16 lg:pt-20 pb-24 md:pb-32 lg:pb-10 overflow-hidden">
       
       {/* Subtle Mélange neuron background texture */}
       <div className="absolute inset-0 opacity-[0.015] pointer-events-none">

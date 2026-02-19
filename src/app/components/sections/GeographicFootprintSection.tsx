@@ -4,7 +4,7 @@ export function GeographicFootprintSection() {
   const regions = ['GCC', 'United Kingdom', 'Europe', 'Asia', 'Africa', 'India', 'Singapore'];
   
   return (
-    <section className="relative bg-[#0B0B12] py-24 lg:py-32 overflow-hidden">
+    <section className="relative bg-[#0B0B12] py-24 lg:py-12 overflow-hidden">
       {/* Subtle Mélange gradient wash behind headline */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-br from-[#D540FF]/8 via-[#3858FF]/6 to-transparent blur-3xl pointer-events-none" />
       

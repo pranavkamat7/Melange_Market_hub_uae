@@ -83,7 +83,7 @@ export function DubaiCitySection() {
   const [expandedService, setExpandedService] = useState<number | null>(0); // Mobile: expanded accordion - FIRST ONE OPEN BY DEFAULT
 
   return (
-    <section className="relative bg-[#0B0B12] min-h-screen overflow-hidden flex items-center justify-center py-24 px-6">
+    <section className="relative bg-[#0B0B12] min-h-screen overflow-hidden flex items-center justify-center py-10 px-6">
       {/* Gradient Orb Background Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Purple Orb - Top Left */}
