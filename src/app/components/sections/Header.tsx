@@ -58,8 +58,8 @@ export function Header() {
               let href = `#${item.toLowerCase()}`; // default internal link
 
               // Update external links
-              if (item === "Work") href = "https://melangedigital.co/work";
-              if (item === "About") href = "https://melangedigital.co/about";
+              if (item === "Work") href = "#Work";
+              if (item === "About") href = "#About";
               if (item === "Careers") href = "https://melangedigital.co/careers";
 
               return (
@@ -108,8 +108,8 @@ export function Header() {
                 (item, index) => {
                   let href = `#${item.toLowerCase().replace(" ", "")}`; // default
 
-                  if (item === "Work") href = "https://melangedigital.co/work";
-                  if (item === "About") href = "https://melangedigital.co/about";
+                  if (item === "Work") href = "#Work";
+                  if (item === "About") href = "#About"; // internal link
                   if (item === "Careers") href = "https://melangedigital.co/careers";
 
                   return (

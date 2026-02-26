@@ -49,8 +49,8 @@ export function Footer() {
   ];
 
   const companyLinks = [
-    { href: "https://melangedigital.co/about", text: "About Us" },
-    { href: "https://melangedigital.co/work", text: "Our Work" },
+    { href: "#About", text: "About Us" },
+    { href: "#services", text: "Our Work" },
     { href: "https://melangedigital.co/blogs", text: "Blogs" },
     { href: "https://melangedigital.co/careers", text: "Careers" },
   ];
