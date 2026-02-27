@@ -31,7 +31,7 @@ export function PrimaryButton({
       onClick={onClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`group relative px-10 py-4 rounded-full text-base font-semibold inline-flex items-center gap-2 justify-center overflow-hidden ${className}`}
+      className={`group relative px-10 py-4 w-[177px] h-[56px] rounded-full text-base font-semibold inline-flex items-center gap-2 justify-center overflow-hidden ${className}`}
     >
       {/* Base background (white or black) */}
       <div className={`absolute inset-0 ${bgColor} rounded-full`} />
@@ -40,7 +40,7 @@ export function PrimaryButton({
       <motion.div
         className="absolute inset-0 bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] rounded-full"
         initial={false}
-        animate={isHovered ? { x: '0%' } : { x: '85%' }}
+        animate={isHovered ? { x: '0%' } : { x: '79%' }}
         transition={{ duration: 0.8, ease: [0.23, 1, 0.32, 1] }}
       />
       
