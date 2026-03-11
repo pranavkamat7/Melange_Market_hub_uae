@@ -1,8 +1,8 @@
-import { motion } from 'motion/react';
-import { StarfieldBackground } from '@/app/components/StarfieldBackground';
-import { LensDistortionWrapper } from '@/app/components/LensDistortionWrapper';
-import { PrimaryButton } from '@/app/components/buttons/PrimaryButton';
-import { MicroLabel } from '@/app/components/ui/MicroLabel';
+import { motion } from "motion/react";
+import { StarfieldBackground } from "@/app/components/StarfieldBackground";
+import { LensDistortionWrapper } from "@/app/components/LensDistortionWrapper";
+import { PrimaryButton } from "@/app/components/buttons/PrimaryButton";
+import { MicroLabel } from "@/app/components/ui/MicroLabel";
 
 export function HeroSection() {
   return (
@@ -15,13 +15,15 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
           className="text-[80px] md:text-[96px] lg:text-[112px] xl:text-[120px] font-bold mb-8 tracking-tight leading-[0.95]"
         >
-          <span className="text-white">Enter the Growth</span>
+          <h1 className="text-white text-[80px] md:text-[96px] lg:text-[112px] xl:text-[120px] font-bold inline-block m-0 leading-none">
+            Digital Marketing
+          </h1>
           <br />
-          <span className="bg-gradient-to-r from-[#d540ff] via-[#7f4eff] to-[#3858ff] bg-clip-text text-transparent">
-            Singularity
-          </span>
+          <h1 className="bg-gradient-to-r from-[#d540ff] via-[#7f4eff] to-[#3858ff] bg-clip-text text-transparent text-[80px] md:text-[96px] lg:text-[112px] xl:text-[120px] font-bold inline-block m-0 leading-none">
+            Agency in UAE
+          </h1>
         </motion.h1>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -35,7 +37,7 @@ export function HeroSection() {
             They need systems that dominate.
           </span>
         </motion.div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -43,14 +45,13 @@ export function HeroSection() {
           className="flex flex-col items-center"
         >
           <MicroLabel className="mb-8">INITIATE SEQUENCE</MicroLabel>
-          
+
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <a href="https://calendly.com/julien-melangedigital/30min" >
+            <a href="https://calendly.com/julien-melangedigital/30min">
               <PrimaryButton className="w-auto min-w-[180px]">
-              Book a Call
-            </PrimaryButton>
+                Book a Call
+              </PrimaryButton>
             </a>
-            
           </div>
         </motion.div>
       </div>

@@ -40,12 +40,12 @@ export function InfrastructureRevealSection() {
             </div>
 
             <h2 className="relative text-[44px] md:text-[56px] lg:text-[72px] font-bold leading-[1.1] tracking-tight">
-              <span className="block text-white">
+              <h2 className="text-[44px] md:text-[56px] lg:text-[72px] font-bold text-white inline-block m-0 leading-[1.1] tracking-tight">
                 Growth Is Not a Campaign.
-              </span>
-              <span className="block">
-                It Is <span className="bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent">Infrastructure.</span>
-              </span>
+              </h2>
+              <h2 className="leading-[1.1] tracking-tight block text-[44px] md:text-[56px] lg:text-[72px] font-bold">
+                It Is <h2 className="leading-[1.1] tracking-tight text-[44px] md:text-[56px] lg:text-[72px] font-bold bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent">Infrastructure.</h2>
+              </h2>
             </h2>
           </motion.div>
 
@@ -58,7 +58,7 @@ export function InfrastructureRevealSection() {
             className="flex flex-col gap-8 text-center lg:text-left items-center lg:items-start"
           >
             <p className="text-[20px] md:text-[24px] lg:text-[26px] leading-[1.5] text-[#D4DBE8] max-w-[480px]">
-              We architect compounding growth systems across paid, search, AI discovery, creative, and automation, engineered for scale and longevity in the Gulf.
+              We architect compounding growth systems across all digital marketing agency services: paid, search, AI discovery, creative, and automation, engineered for scale and longevity in the Gulf.
             </p>
 
             {/* Pill tags */}

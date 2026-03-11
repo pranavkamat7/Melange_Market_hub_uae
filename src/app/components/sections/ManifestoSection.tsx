@@ -29,7 +29,7 @@ export function ManifestoSection() {
           <GradientDivider className="mb-8 lg:mb-10" />
           
           <p className="text-2xl md:text-3xl lg:text-4xl leading-relaxed max-w-5xl mx-auto text-center text-[#3f3f46]">
-            We design <span className="bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent font-medium">systems</span> that survive volatility and compound advantage.
+            We build the best <span className="bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent font-medium">digital marketing agency</span> services in UAE, that deliver measurable outcomes and hold up when markets shift.
           </p>
         </motion.div>
       </div>

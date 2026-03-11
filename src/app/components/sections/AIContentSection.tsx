@@ -9,13 +9,13 @@ const features = [
     isPrimary: true
   },
   {
-    title: 'AI Avatars',
+    title: 'AI-Assisted Production',
     description: 'Custom AI spokespersons trained from real people, used to produce consistent content at scale.',
     icon: 'avatar',
     isPrimary: false
   },
   {
-    title: 'AI Video',
+    title: 'Video & Visual Systems',
     description: 'High-volume AI video creation with controlled messaging, not generic automation.',
     icon: 'video',
     isPrimary: false

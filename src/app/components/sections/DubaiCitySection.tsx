@@ -110,16 +110,14 @@ export function DubaiCitySection() {
           className="text-center mb-12"
         >
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
-            <span className="text-white">Marketing for </span>
+            <span className="text-white">Digital Marketing </span>
             <span className="bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent">
-              Dubai
+              UAE
             </span>
             <span className="text-white"> Brands</span>
           </h2>
           <p className="text-xl lg:text-2xl text-[#D4DBE8] max-w-3xl mx-auto leading-relaxed">
-            We help companies in Dubai grow through SEO, Google Ads, social
-            media, AI content, and conversion systems, engineered for serious
-            markets across the UAE.
+            We help companies in UAE to grow through SEO, Google Ads, social media, AI content, and conversion systems, engineered for serious markets across the UAE.
           </p>
         </motion.div>
 
@@ -139,7 +137,7 @@ export function DubaiCitySection() {
             {/* Card Content */}
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 leading-tight">
-                <span className="text-white">Dubai Marketing Agency</span>
+                <span className="text-white">UAE Marketing Agency</span>
                 <br />
                 <span className="bg-gradient-to-r from-[#D540FF] via-[#7F4EFF] to-[#3858FF] bg-clip-text text-transparent">
                   Services
@@ -151,7 +149,7 @@ export function DubaiCitySection() {
                 marketing, SEO, paid search, social media strategy, AI-driven
                 content, and high-converting web experiences. From visibility to
                 demand capture, we build structured growth systems designed to
-                help brands compete and win in Dubai's most competitive
+                help brands compete and win in UAE's most competitive
                 industries.
               </p>
 
